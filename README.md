@@ -4,6 +4,7 @@
 
 Sorts package based on width, height, length, and mass
 
+command line use
 ```bash
 python sorter.py 10 10 10 10
 ```
@@ -13,6 +14,7 @@ python sorter.py 10 10 10 10
 
 Runs unit tests for sorter.py.
 
+command line use
 ```bash
 pytest test.py
 ```
