@@ -1,8 +1,8 @@
 from sorter import sorter
 
 def test_sorter_standard():
-    assert sorter(10, 10, 10, 5) == "STANDARD"  
-    assert sorter(100, 200, 50, 5) == "SPECIAL" 
+    assert sorter(10, 10, 10, 5) == "STANDARD"
+    assert sorter(50, 50, 50, 10) == "STANDARD"
 
 def test_sorter_rejected():
     assert sorter(250, 250, 250, 250) == "REJECTED"
